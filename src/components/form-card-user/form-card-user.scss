@@ -1,0 +1,21 @@
+@import "src/styles/variables";
+.btns{
+  margin-top: 15px;
+  justify-content: flex-end;
+  align-items: center;
+  .update {
+    background: $generalColor;
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+}
+.myForm{
+  margin-top: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  input, select {
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,15 @@
+.header{
+  height: 50px;
+  background: aquamarine;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) ;
+  a{
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+  }
+}

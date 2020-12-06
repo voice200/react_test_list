@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Irina ",
+      "age": "27",
+      "phone": 77464457289,
+      "country": "Australia",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Dinara Malysheva",
+      "age": "25",
+      "phone": "77464457289",
+      "country": "Australia",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Arina",
+      "age": "25",
+      "phone": "77464457289",
+      "country": "USA",
+      "email": "test@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Den",
+      "age": "25",
+      "phone": "77464457255",
+      "country": "Russia",
+      "email": "test@gmail.com"
+    }
+  ],
+  "country": [
+    "Russia",
+    "USA",
+    "Australia"
+  ]
+}

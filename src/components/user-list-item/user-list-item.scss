@@ -1,0 +1,45 @@
+@import "src/styles/variables";
+.user-item{
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  margin-top: 40px;
+  height: 100px;
+  .profile{
+    justify-content: space-between;
+    .leftBlock {
+      margin-right: 40px;
+      font-weight: 800;
+      text-align: left;
+      width: 200px;
+      .name{
+        font-size: 25px;
+      }
+      .country {
+        font-size: 16px;
+      }
+    }
+    .info{
+      font-size: 13px;
+    }
+  }
+  .btns{
+    justify-content: flex-end;
+    align-items: flex-end;
+    .update {
+      background: $generalColor;
+      color: black;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+    .delete {
+      background: $tomatoColor;
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
+
+
+
