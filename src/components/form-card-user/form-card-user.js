@@ -30,9 +30,9 @@ class FormCardUser extends Component{
         const name = target.name;
 
         this.setState(({user}) =>{
-            const arr = {...user}
-            const newState = {...arr, [name]: value}
-            return {user: newState}
+            const arr = {...user};
+            const newState = {...arr, [name]: value};
+            return {user: newState};
         });
     }
 
@@ -44,7 +44,7 @@ class FormCardUser extends Component{
                 })
             })
             .catch((e)=>{
-                console.log(e.message)
+                console.log(e.message);
             })
     }
     getCountry= () =>{
@@ -57,7 +57,7 @@ class FormCardUser extends Component{
                     })
                 })
                 .catch((e)=>{
-                    console.log(e.message)
+                    console.log(e.message);
                 })
         }
     }
@@ -78,11 +78,11 @@ class FormCardUser extends Component{
         const{countryAll} = this.state
 
         const countrySelect = countryAll.map((item,index) =>{
-                return <option key={index} >{item}</option>;
+                return <option key={index}>{item}</option>;
         });
 
         return(
-          <form className="form-group myForm" onSubmit={this.onUpdateUser} onChange = {this.userChange} >
+          <form className="form-group myForm" onSubmit={this.onUpdateUser} onChange={this.userChange}>
                   <label htmlFor="name">Name</label>
                   <input type="text"
                          className="form-control"

@@ -1,11 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './users-list.scss'
 import UserListItem from "../user-list-item";
 
-export default class UsersList extends Component{
-    render() {
-
-        const {users, onDeletedUser} = this.props
+const UsersList = ({users, onDeletedUser}) => {
 
         const elements = users.map((user) => {
             return (
@@ -23,5 +20,6 @@ export default class UsersList extends Component{
                 {elements}
             </div>
         );
-    }
 }
+
+export default UsersList;

@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "Dinara Malysheva",
+      "name": "Dinara",
       "age": "25",
       "phone": "77464457289",
       "country": "Australia",
@@ -26,11 +26,11 @@
     },
     {
       "id": 4,
-      "name": "Den",
-      "age": "25",
-      "phone": "77464457255",
+      "name": "Max ",
+      "age": "23",
+      "phone": 77464400089,
       "country": "Russia",
-      "email": "test@gmail.com"
+      "email": "test@mail.ru"
     }
   ],
   "country": [

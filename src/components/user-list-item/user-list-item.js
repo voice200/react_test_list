@@ -5,8 +5,8 @@ import {withRouter} from 'react-router'
 class UserListItem extends Component{
 
     onUpdateUser= (event) =>{
-        const id = event.target.dataset.id
-        this.props.history.push(`/update/${id}`)
+        const id = event.target.dataset.id;
+        this.props.history.push(`/update/${id}`);
     }
     render() {
         const {user:{name, country, age, phone, email, id}, onDeleted} = this.props

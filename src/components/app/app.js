@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './app.scss'
 import {BrowserRouter as Router,
     Route,
-    Switch,
     Redirect
 } from 'react-router-dom'
 
@@ -28,7 +27,7 @@ export default class App extends Component {
                            />
                          <Route path="/update/:id" exact
                                 render={(match)=>{
-                                    const {id} = match.match.params
+                                    const {id} = match.match.params;
                                     return <FormPage itemsId={id}/>}}/>
                          <Redirect to={'/'}/>
                        </div>

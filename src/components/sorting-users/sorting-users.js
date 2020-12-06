@@ -19,7 +19,6 @@ export default class SortingUsers extends Component{
     }
 
     render() {
-
         return (
             <button className="btn myBtn" onClick={()=> this.filterUsers(false)}>
                 <i className="fa fa-sort-alpha-asc arrow"/>

@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './app-header.scss'
 import SortingUsers from "../sorting-users";
 
-export default class AppHeader extends Component{
+const AppHeader = ({onFilterChange, namePage})=>{
 
-    render() {
-        const {onFilterChange, namePage} = this.props
         let sorting;
         if (namePage === 'List of users'){
             sorting = <SortingUsers onFilterChange = {onFilterChange}/>;
@@ -18,6 +16,6 @@ export default class AppHeader extends Component{
                 {sorting}
             </div>
         );
-    }
-
 }
+
+export default AppHeader;
